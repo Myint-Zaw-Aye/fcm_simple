@@ -1,16 +1,33 @@
 # fcm
 
-A new Flutter project.
+FCM Simple – Flutter Firebase Cloud Messaging
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This repository demonstrates a minimal Flutter setup for Firebase Cloud Messaging (FCM), showing how to:
 
-A few resources to get you started if this is your first Flutter project:
+Initialize Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Handle push notifications in foreground, background, and terminated states
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Show local notifications when FCM arrives
+
+Navigate to a specific screen (e.g. ProductPage) when a notification is tapped
+
+
+Features
+  Firebase initialization with firebase_core and firebase_messaging
+  
+  Background message handler
+  
+  Foreground local notifications using flutter_local_notifications
+  
+  Navigation via navigatorKey
+  
+  Android notification channel support (Oreo+)
+  
+dependencies:
+  firebase_core: ^3.0.0
+  firebase_messaging: ^15.0.0
+  flutter_local_notifications: ^17.0.0
+
