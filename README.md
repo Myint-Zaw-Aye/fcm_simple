@@ -4,28 +4,24 @@ FCM Simple – Flutter Firebase Cloud Messaging
 
 ## Getting Started
 
-This repository demonstrates a minimal Flutter setup for Firebase Cloud Messaging (FCM), showing how to:
+✨ Features
 
-Initialize Firebase
+🚀 Firebase init with firebase_core
 
-Handle push notifications in foreground, background, and terminated states
+📩 FCM handling in foreground, background, and terminated states
 
-Show local notifications when FCM arrives
+🔔 Local notifications via flutter_local_notifications
 
-Navigate to a specific screen (e.g. ProductPage) when a notification is tapped
+🧭 Deep navigation (e.g., open ProductPage) using a global navigatorKey
+
+📡 Background message handler for data-only and notification messages
+
+📦 Android notification channel support (Oreo+)
+
+🛡️ Permissions flow on iOS & Android 13+
 
 
-Features
-  Firebase initialization with firebase_core and firebase_messaging
-  
-  Background message handler
-  
-  Foreground local notifications using flutter_local_notifications
-  
-  Navigation via navigatorKey
-  
-  Android notification channel support (Oreo+)
-  
+📦 Dependencies
 dependencies:
   firebase_core: ^3.0.0
   firebase_messaging: ^15.0.0
